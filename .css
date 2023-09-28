@@ -1,0 +1,100 @@
+.left-navbar {
+  width: 15%;
+  border: 1px solid lightgray;
+
+
+}
+
+.main {
+  width: auto;
+
+}
+
+.right-navbar {
+  width: 30%;
+  border: 1px solid white;
+  padding: 40px;
+
+}
+
+.right-navbar img {
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+#font {
+  font-family: Brush Script MT, cursive;
+  padding: 10px;
+}
+
+.main img {
+  border: 1px solid pink;
+  border-radius: 20px;
+}
+
+.main button {
+  border: 2px solid red;
+  border-radius: 100px;
+}
+
+.b1 button {
+  border: 1px solid white;
+}
+
+.r1 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: small;
+}
+
+.r2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: small;
+}
+
+.post-section {
+  padding-left: 100px;
+}
+
+#main1 {
+  padding: 30px;
+}
+
+@media only screen and (max-width: 812px) {
+  .right-navbar {
+      display: none;
+  }
+
+  .post-section {
+      margin-left: -50px;
+  }
+
+  #main1 div {
+      display: run-in;
+      padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .right-navbar {
+      display: none;
+  }
+
+  #main1 div {
+      display: ruby-base;
+      padding: 5px;
+  }
+
+  .post-head {
+      margin-left: -100px;
+  }
+
+  .post-section {
+      margin-left: 200px;
+  }
+
+  .b1 {
+      margin-left: -100px;
+  }
+}
